@@ -23,7 +23,7 @@ This project displays a recipe card layout including a photo, description, prepa
 ## File Structure
 
 ```
-cookie-recipe.html
+index.html
 ```
 
 ```
