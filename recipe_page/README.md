@@ -26,8 +26,13 @@ This project displays a recipe card layout including a photo, description, prepa
 cookie-recipe.html
 ```
 
-All HTML and CSS are contained in a single file for simplicity.
+```
+style.css
+```
 
+```
+img/cookie.jpeg
+```
 ## How to View
 
 1. Download or clone the project files.
