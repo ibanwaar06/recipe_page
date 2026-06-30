@@ -1,0 +1,93 @@
+ body {
+    margin: 0;
+    padding: 40px 20px;
+    background: #ecceaf;
+    font-family: Georgia, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+  }
+  .card {
+    background: #fff;
+    max-width: 700px;
+    width: 100%;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
+  .photo {
+    width: 100%;
+    border-radius: 12px;
+    display: block;
+    height: 400px;
+    object-fit: cover;
+  }
+  h1 {
+    font-size: 2.2rem;
+    margin: 24px 0 8px;
+    color: #2b2420;
+  }
+  .desc {
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .prep-box {
+    background: #faeef7;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+  }
+  .prep-box h2 {
+    color: #8a2e6c;
+    font-size: 1.1rem;
+    margin: 0 0 10px;
+  }
+  .prep-box ul {
+    margin: 0;
+    padding-left: 18px;
+    color: #444;
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+  }
+  h2.section {
+    color: #a8462c;
+    border-bottom: none;
+    font-size: 1.6rem;
+    margin-top: 28px;
+  }
+  ul.ingredients, ol.instructions {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.7;
+    font-size: 0.97rem;
+  }
+  ol.instructions li {
+    margin-bottom: 10px;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 24px 0;
+  }
+  .nutrition-note {
+    font-family: Arial, sans-serif;
+    color: #555;
+    font-size: 0.95rem;
+    margin-bottom: 14px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  table td {
+    padding: 10px 4px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  table td.value {
+    text-align: right;
+    font-weight: bold;
+    color: #a8462c;
+  }
